@@ -9,27 +9,101 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 	<!--Bootswatch link-->
-	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/spacelab/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/slate/bootstrap.min.css">
 
 </head>
-<body class="bg-dark">
+<body>
 	<div class="container">
 	    <header>
-	      <div class="blog-masthead">
+	      <div class="blog-masthead bg-primary">
 	          <nav class="nav bg-primary">
-	            <a class="nav-link active text-white" href="#">Home</a>
-	            <a class="nav-link text-white" href="#">New features</a>
-	            <a class="nav-link text-white" href="#">Press</a>
-	            <a class="nav-link text-white" href="#">New hires</a>
-	            <a class="nav-link text-white" href="#">About</a>
+	            <a class="nav-link active" href="#">Home</a>
+	            <a class="nav-link" href="#">New features</a>
+	            <a class="nav-link" href="#">Press</a>
+	            <a class="nav-link" href="#">New hires</a>
+	            <a class="nav-link" href="#">About</a>
 	          </nav>
 	      </div>
 
-	      <div class="blog-header text-white p-2 bg-primary">
+	      <div class="blog-header p-2 bg-primary">
 	          <h1 class="blog-title">CoderMojo</h1>
 	          <p class="lead blog-description">Exploring the power, mystery, and magic of coding.</p>
 	      </div>
 	    </header>
+
+	     <main role="main" class="container">
+
+      <div class="row pt-4">
+        <div class="col-sm-8 blog-main bg-primary p-3">
+          <div class="blog-post">
+            <h2 class="blog-post-title">Blog post 1</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">CoderMojo</a></p>
+            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Another blog post</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">CoderMojo</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">New feature</h2>
+            <p class="blog-post-meta">December 14, 2013 by <a href="#">CoderMojo</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+          </div><!-- /.blog-post -->
+
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#">CoderMojo</a>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-sm-auto blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">December 2017</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/philipstubbs13" target="_blank">GitHub</a></li>
+              <li><a href="https://twitter.com/iamPhilStubbs" target="_blank">Twitter</a></li>
+              <li><a href="https://www.facebook.com/phil.stubbs.13" target="_blank">Facebook</a></li>
+            </ol>
+          </div>
+        </aside><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
 	</div>
 
 </body>
